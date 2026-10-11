@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top:  calc(30px + 20px);
+
+}
+#contenedor{
+    width: 100%;
+    margin:auto;
+    
+    
+}
+
+#cabecera{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    background-color: #F2CF1D;
+    list-style-type: none;
+    font-size: 15pt;
+    height: 50px;
+    font-weight: bolder;
+    position: relative;
+    
+
+}
+
+#menu ul :hover{
+    color: white;
+}
+li{
+    padding: 20px;
+    
+}
+
+#contenido{
+    background-color:black;
+    width: 100%;
+    
+}
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:40px auto;
+    background-color: rgb(11, 10, 10);
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    z-index: 10;
+    
+}
+
+.tarjeta {
+    width: 240px;
+    background-color:rgb(24, 28, 28);
+    border-radius: 10px;
+    margin: 30px ;
+    position: relative;
+    
+    
+}
+.tarjeta:hover {
+    transform: translateY(-20px);
+    transition: all 1s ;
+    box-shadow:  2px 2px 15px yellow;
+    
+
+}
+
+h3,p{
+    color: white;
+}
+
+.tarjeta img{
+    
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    
+    
+}
+
+#luke {
+     filter:brightness(40%) ;
+}
+
+#darth {
+     filter:brightness(150%) ;
+}
+
+.tarjeta-cont {
+    padding:15px;
+}
+#etiqueta1 {
+    background-color:lightseagreen;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+
+#etiqueta2 {
+    background-color:crimson;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+
+
+#flecha {
+    background-color:#F2CF1D;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 25px;
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    z-index: 30;
+
+}
+
+#flecha a{
+    color: black;
+}
+    
+    
+    
+
+
+
+
+
+
+
+
